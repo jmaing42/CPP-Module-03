@@ -16,3 +16,13 @@ ex01/*
 !ex01/ClapTrap.cpp
 !ex01/ScavTrap.hpp
 !ex01/ScavTrap.cpp
+
+ex02/*
+!ex02/Makefile
+!ex02/main.cpp
+!ex02/ClapTrap.hpp
+!ex02/ClapTrap.cpp
+!ex02/ScavTrap.hpp
+!ex02/ScavTrap.cpp
+!ex02/FragTrap.hpp
+!ex02/FragTrap.cpp
