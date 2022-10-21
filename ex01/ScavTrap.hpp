@@ -6,12 +6,6 @@
 #include "ClapTrap.hpp"
 
 class ScavTrap : public ClapTrap {
-private:
-  std::string name;
-  unsigned int hitPoint;
-  unsigned int energyPoint;
-  unsigned int attackDamage;
-
 public:
   ScavTrap(std::string name = "<name>", unsigned int hitPoint = 100,
            unsigned int energyPoint = 50, unsigned int attackDamage = 20);

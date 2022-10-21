@@ -6,15 +6,15 @@ ClapTrap::ClapTrap(std::string name, unsigned int hitPoint,
                    unsigned int energyPoint, unsigned int attackDamage)
     : name(name), hitPoint(hitPoint), energyPoint(energyPoint),
       attackDamage(attackDamage) {
-  std::cout << "ClapTrap " << name << " constructed" << std::endl;
+  std::cout << "ClapTrap " << this->name << " constructed" << std::endl;
 }
 ClapTrap::~ClapTrap() {
-  std::cout << "ClapTrap " << name << " destructed" << std::endl;
+  std::cout << "ClapTrap " << this->name << " destructed" << std::endl;
 }
 ClapTrap::ClapTrap(const ClapTrap &copy)
     : name(copy.name), hitPoint(copy.hitPoint), energyPoint(copy.energyPoint),
       attackDamage(copy.attackDamage) {
-  std::cout << "ClapTrap " << name << " copy constructed" << std::endl;
+  std::cout << "ClapTrap " << this->name << " copy constructed" << std::endl;
 }
 ClapTrap &ClapTrap::operator=(const ClapTrap &copy) {
   this->name = copy.name;

@@ -5,14 +5,14 @@
 ScavTrap::ScavTrap(std::string name, unsigned int hitPoint,
                    unsigned int energyPoint, unsigned int attackDamage)
     : ClapTrap(name, hitPoint, energyPoint, attackDamage) {
-  std::cout << "ScavTrap " << name << " constructed" << std::endl;
+  std::cout << "ScavTrap " << this->name << " constructed" << std::endl;
 }
 ScavTrap::~ScavTrap() {
-  std::cout << "ScavTrap " << name << " destructed" << std::endl;
+  std::cout << "ScavTrap " << this->name << " destructed" << std::endl;
 }
 ScavTrap::ScavTrap(const ScavTrap &copy)
     : ClapTrap(copy.name, copy.hitPoint, copy.energyPoint, copy.attackDamage) {
-  std::cout << "ScavTrap " << name << " copy constructed" << std::endl;
+  std::cout << "ScavTrap " << this->name << " copy constructed" << std::endl;
 }
 ScavTrap &ScavTrap::operator=(const ScavTrap &copy) {
   this->name = copy.name;
