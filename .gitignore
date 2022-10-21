@@ -8,3 +8,11 @@ ex00/*
 !ex00/main.cpp
 !ex00/ClapTrap.hpp
 !ex00/ClapTrap.cpp
+
+ex01/*
+!ex01/Makefile
+!ex01/main.cpp
+!ex01/ClapTrap.hpp
+!ex01/ClapTrap.cpp
+!ex01/ScavTrap.hpp
+!ex01/ScavTrap.cpp
